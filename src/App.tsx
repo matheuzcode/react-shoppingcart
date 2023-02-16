@@ -12,7 +12,7 @@ function App() {
     <ShoppingCartProvider>
       <Navbar/>
       <Container className="mb-4">
-        <Routes>
+        <Routes basename="/react-shoppingcart">
           <Route path="/home" element={<Home />}/>
           <Route path="/" element={<Store />}/>
           <Route path="/about" element={<About />}/>
